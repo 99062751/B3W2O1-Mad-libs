@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="Forms.css">
 </head>
 <body>
-<h1 id="title">mAd lIbS</h1>
+<h1 id="title">Mad Libs</h1>
     <div class="CenterDiv">
 
         <div class="links_style">

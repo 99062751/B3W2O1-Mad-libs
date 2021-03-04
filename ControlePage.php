@@ -5,8 +5,8 @@ $inputs= array();
 if($_SERVER["REQUEST_METHOD"] == "POST") {
     foreach ($_POST as $name => $value) {
         if (empty($_POST[$name])) {
-            $name_error= "ERROR: leeg veld";
             $error[$name]= $name_error;
+            $name_error= "ERROR: leeg veld";
         } else {
             $input_form = trimmen($value);
             if(!preg_match("/^[a-zA-Z-' ]*$/", $input_form)){
@@ -24,3 +24,5 @@ function trimmen($parameter) {
     $parameter = htmlspecialchars($parameter);
     return $parameter;
 }
+
+?>
