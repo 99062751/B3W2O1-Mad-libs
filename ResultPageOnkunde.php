@@ -1,4 +1,4 @@
-
+<h2>Onkunde</h2>
 <p><br> Er zijn veel mensen die niet kunnen <?php echo $inputs["input1"]; ?>. <br> 
 Neem nou <?php echo $inputs["input2"]; ?>.<br>  Zelf met hulp van een <?php echo $inputs["input4"]; ?> of zelfs <?php echo $inputs["input3"]; ?>
  kan  <?php echo $inputs["input2"]; ?> niet <?php echo $inputs["input1"]; ?>. <br> Dat heeft niets te maken met het gebrek aan  <?php echo $inputs["input5"]; ?>,

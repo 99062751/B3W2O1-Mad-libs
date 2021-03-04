@@ -5,11 +5,19 @@ body{
 h1{
     color: white;
 }
+h2{
+    background-color: white;
+}
+
+#title{
+    margin-top: 150px;
+    text-align: center;
+}
 
 .CenterDiv{
-    margin: 100 auto;
+    margin: 0 auto;
     border: 3px solid black;
-    width: 800px;
+    width: 650px;
 }
 
 form{
@@ -39,7 +47,9 @@ li{
 *{
     margin: 0;
 }
-
+p{
+    background-color: white;
+}
 form label{
     grid-column: 1/2;
     margin-bottom: 15px;
@@ -54,12 +64,11 @@ form input{
     background-color: red;
     color: white;
     border: 2px solid black;
-    margin-left: 80px;
 }
 
 footer{
     text-align: center;
-    background-color: red;
-    color: white;
+    background-color: darkgrey;
+    color: black;
 }
 

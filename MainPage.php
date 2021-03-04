@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="Forms.css">
 </head>
 <body>
-    
+<h1 id="title">mAd lIbS</h1>
     <div class="CenterDiv">
+
         <div class="links_style">
             <ul>
                 <li><a href="MainPage.php?page=paniek">Er heerst paniek..</a></li>
@@ -34,7 +35,7 @@
             }
         ?> 
     
-    <footer>Sumant Jakhari  ©2021</footer>
+    <footer>Deze website is gemaakt door: Sumant Jakhari  ©2021</footer>
     </div>
 
 </body>
